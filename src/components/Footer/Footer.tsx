@@ -53,7 +53,7 @@ const Footer = () => {
         <div className="text-[16px] mb-[2rem] md:mb-0 text-white opacity-20">
             Soner Şeylan 2023 © All Rights Reserved
         </div>
-        <div className="flex items-center space-x-10">
+        <div className="flex items-center space-x-10 justify-end">
             <p className="text-[16px] text-white opacity-20">Terms & Condition</p>
             <p className="text-[16px] text-white opacity-20">Privacy Policy</p>
             <p className="text-[16px] text-white opacity-20">Sitemap</p>
