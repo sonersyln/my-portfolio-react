@@ -11,8 +11,8 @@ const About: React.FC = () => {
             HAKKIMDA
           </h1>
           <h2 className="text-[25px] md:text-[35px] lg:text-[px] md:leading-[3rem] leading-[2rem] capitalize mb-[3rem] font-bold text-white">
-            Shaping the Future{" "}
-            <span className="text-yellow-400">with Technology</span>
+          Teknoloji İle Geleceği {" "}
+            <span className="text-yellow-400">Şekillendirmek</span>
           </h2>
           <div className="mb-[3rem] flex items-center md:space-x-10">
             <span className="w-[100px] hidden md:block h-[5px] bg-slate-400 rounded-sm"></span>

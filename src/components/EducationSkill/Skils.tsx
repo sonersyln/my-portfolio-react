@@ -27,7 +27,7 @@ const Skils = () => {
           <SkilsItem
             title="Codecademy"
             year="2023 - 2024"
-            description="Java & React Full Stack Trainee"
+            description="Java & React Full Stack Eğitimi"
           />
 
           <SkilsLanguage
@@ -50,7 +50,7 @@ const Skils = () => {
           <SkilsItem
             title="İstanbul Kodluyor (Tobeto)"
             year="2023 - 2024"
-            description="Java & React Full Stack Trainee"
+            description="Java & React Full Stack Eğitimi"
           />
           <SkilsLanguage
           logo1={hibernate}
