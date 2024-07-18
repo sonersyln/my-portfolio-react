@@ -1,0 +1,24 @@
+/* Genel stillendirme */
+
+.navIcon {
+    cursor: pointer;
+  }
+  
+  .navIcon__icon {
+    width: 2rem;
+    height: 2rem;
+    color: #fde047;
+  }
+  
+  @media (min-width: 792px) {
+    .navIcon__icon {
+      display: none;
+    }
+  }
+
+  @media (max-width: 791px) {
+    .nav-link {
+      display: none;
+    }
+  }
+  

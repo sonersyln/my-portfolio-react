@@ -1,6 +1,7 @@
 import { Bars3Icon } from '@heroicons/react/20/solid'
 import React from 'react'
 import { Link, animateScroll } from 'react-scroll';
+import './Nav.css'
 
 interface Props {
     openNav: () => void;
@@ -27,8 +28,8 @@ const Nav = ({openNav}:Props) => {
 
                 <Link to="footerSection" smooth={true} duration={500} className="nav-link cursor-pointer">İLETİŞİM</Link>
 
-                <div onClick={openNav}>
-                    <Bars3Icon className='w-[2rem] md:hidden h-[2rem] cursor-pointer text-yellow-300'/>
+                <div onClick={openNav} className="navIcon">
+                    <Bars3Icon className="navIcon__icon"/>
                 </div>
             </div>
     </div>
