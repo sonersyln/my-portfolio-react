@@ -3,7 +3,7 @@ import Particle from "../Particle/Particle";
 import TextEffect from "./TextEffect";
 import { ArrowDownTrayIcon } from "@heroicons/react/20/solid";
 import bannerImage from '../../assets/banner.jpeg';
-import u1Image from '../../assets/u1.png';
+import u1Image from '../../assets/u1low.png';
 
 
 const Hero: React.FC = () => {
